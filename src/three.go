@@ -72,3 +72,69 @@ func main() {
 	fmt.Println(strings.ToUpper(f))
 	fmt.Println(strings.ToLower(strings.ToUpper(f)))
 }
+
+//output：
+/*
+true false false true
+int16
+int
+float32 float64
+cpx1 is (1+2i) and type is complex64
+cpx2 is (1+2i) and type is complex128
+cpx3 is (1+2i) and type is complex128
+21
+true
+true
+true
+findLearnGolangTheHardWay
+0 76
+1 101
+2 97
+3 114
+4 110
+5 71
+6 111
+7 108
+8 97
+9 110
+10 103
+11 84
+12 104
+13 101
+14 72
+15 97
+16 114
+17 100
+18 87
+19 97
+20 121
+========
+0 76
+1 101
+2 97
+3 114
+4 110
+5 71
+6 111
+7 108
+8 97
+9 110
+10 103
+11 84
+12 104
+13 101
+14 72
+15 97
+16 114
+17 100
+18 87
+19 97
+20 121
+-1
+1
+0
+false
+true
+FIND
+find
+ */
